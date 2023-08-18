@@ -1,0 +1,27 @@
+.download{
+    background-image: url('https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/OMC/WFH-2019092007545320.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5rem;
+}
+.para{
+    padding: 5rem;
+    left:50%
+}
+.downloadBtn{
+    position: relative;
+    border-radius: 2rem;
+    padding: 15px 30px;
+    width: 20%;
+    font-size: 1rem;
+    background-color: rgb(199, 97, 25);
+    border: none;
+    color: aliceblue;
+    left:25%
+}
+.downloadBtn:hover{
+    border-color: rgb(114, 114, 179);
+    background-color: rgb(114, 114, 179);
+  }

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+  background-size: cover;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  padding: 10px;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+.navbar li{
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+li a {
+  color: whitesmoke;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  color: red;
+}
+.headerNav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.footer{
+  padding: 2rem;
+  background-color: rgb(26, 25, 25);
+  color: aliceblue;
+}
+.footer li{
+  display: inline-block;
+  padding: 20px;
+}
+li{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+li:hover{
+    color: aqua;
+}
